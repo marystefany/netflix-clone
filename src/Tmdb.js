@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-const API_KEY = '815c7cb570bcfc6d7cb28ad4042bd6bf';
-const API_BASE = 'https://api.themoviedb.org/3';
+const API_KEY = process.env.REACT_APP_API_KEY;
+const API_BASE = process.env.REACT_APP_BASE_URL;
 
 /*
 - originais da netflix
